@@ -1,5 +1,5 @@
 how to install and run the Trainer API
-
+0- JDK15 must be in the classpath
 1- clone into intellij from url: https://github.com/hjbarbieri/trainerApi.git
 2- run mvn clean package
 3- go to com.gladiator.trainer.TrainerApplication and run the main method
@@ -23,5 +23,11 @@ and add the id = 1
 1- mvn clean install
 2 to run with the jar into the terminal: java -jar trainer-0.0.1-SNAPSHOT.jar
 
+--Next steps
+1- Create endpoint for DELETE
+2- Create endpoint for UPDATE
+3- Create tests
+4- Add logs into all the Api
+5- Set up a DB not In memory like Postgres
 
 
