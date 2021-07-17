@@ -3,7 +3,7 @@ how to install and run the Trainer API
 1- clone into intellij from url: https://github.com/hjbarbieri/trainerApi.git
 2- run mvn clean package
 3- go to com.gladiator.trainer.TrainerApplication and run the main method
-4- In the browser go to http://localhost:8081/swagger-ui/index.html
+4- In the browser go to http://localhost:8081/swagger-ui/index.html?configUrl=/api-docs/swagger-config#/trainer-controller/saveTrainer
 -- Because It is using a H2 in memory DB, we can save and read Trainer BO.
 
 5- go to POST method under: POST /api/v1/trainers
